@@ -9,7 +9,7 @@ namespace Technology
         public string Name;
         public string Owner { get; set; }
 
-        readonly int YearMade;
+        public readonly int YearMade;
         public double Storage { get; }
         public string OperatingSystem { get; set; }
 

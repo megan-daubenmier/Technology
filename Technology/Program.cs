@@ -6,7 +6,10 @@ namespace Technology
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Computer testComputer = new Computer("Yoga", "Megan", 2021, 512.0, "Windows 10");
+            Laptop testLaptop = new Laptop("Yoga", "Megan", 2021, 512.0, "Windows 10", "SSD");
+            Console.WriteLine(testComputer.ID);
+            Console.WriteLine(testLaptop.ID);
         }
     }
 }

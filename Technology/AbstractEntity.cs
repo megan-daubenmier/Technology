@@ -6,7 +6,7 @@ namespace Technology
 {
     public class AbstractEntity
     {
-        private int nextID = 0;
+        static private int nextID = 0;
         public int ID { get; }
 
         public AbstractEntity()
